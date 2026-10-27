@@ -1,5 +1,5 @@
 # rename
-
+```bash
 #!/usr/bin/env bash
 # Rename newname to newname_ttf everywhere: package names, crate names in code,
 # the paths the derive macro and code generator emit, the #[oldname(...)]
@@ -49,3 +49,4 @@ if [[ -n "$left" ]]; then
   echo "note: '$OLD' still appears in (check these by hand):"
   echo "$left"
 fi
+```
